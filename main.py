@@ -17,6 +17,10 @@ spark=SparkSession.builder.appName("sharad").master("local[1]").getOrCreate()
 path="C:\\Users\\shara\\OneDrive\\Desktop\\spark\\departments.csv"
 configpath="C:\\Users\\shara\\OneDrive\\Desktop\\spark\\oracle_config.json"
 
+"""
+This string is for showing the changes in this file
+"""
+
 def main():
 
     #Extract data
